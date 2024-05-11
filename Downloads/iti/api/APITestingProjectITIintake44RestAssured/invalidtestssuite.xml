@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="invalidscenariostestsuite" parallel="tests" thread-count="4" verbose="0">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+
+    </listeners>
+    <test name="invalidusertests">
+    <classes>
+        <class name="testcases.user.invalidUserTests.CreateUserWithInvalidFieldsTests"/>
+        <class name="testcases.user.invalidUserTests.GetUserWithInvalidIDTests"/>
+        <class name="testcases.user.invalidUserTests.DeleteUserWithInvalidIDTests"/>
+    </classes>
+</test>
+    <test name="invalidposttests">
+        <classes>
+            <class name="testcases.post.invalidPostTests.CreatePostWithInvalidFieldsTests"/>
+            <class name="testcases.post.invalidPostTests.GetPostWithInvalidIDTests"/>
+            <class name="testcases.post.invalidPostTests.DeletePostWithInvalidID"/>
+        </classes>
+    </test>
+
+</suite>
