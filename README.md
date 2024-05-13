@@ -21,7 +21,7 @@ This project focuses on API testing for a Go REST web service that provides endp
 - Explore Postman Collections:
         Import the Postman collection (collection.json) located in the postman directory to explore and execute manual tests.
 
-##Dependencies
+##   Dependencies
 
 RestAssured: Java library for RESTful API testing.
 TestNG: Framework for writing and running tests.
@@ -116,4 +116,7 @@ project-root/
 │       └── utils/
 │           └── Constants.java
 
+## License
+
+This project is licensed under the MIT License.
 
