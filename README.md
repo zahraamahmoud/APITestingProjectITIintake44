@@ -2,7 +2,7 @@
 
 API Testing for Go REST Web Service
 
-This project focuses on API testing for a Go REST web service that provides endpoints for managing users, posts, comments, and todos. CRUD operations have been implemented for each endpoint, and Postman collections have been utilized for manual testing. Additionally, RestAssured has been employed for automating the web service tests, including POJO serialization and deserialization.
+This project focuses on API testing for a Go REST web service that provides endpoints for managing users, posts, comments, and todos. CRUD operations have been implemented for each endpoint, and Postman collections have been utilized for manual testing. Additionally, RestAssured has been employed for automating web service tests, including POJO serialization and deserialization.
 
 ## Features
 
@@ -116,7 +116,4 @@ project-root/
 │       └── utils/
 │           └── Constants.java
 
-## License
-
-This project is licensed under the MIT License.
 
