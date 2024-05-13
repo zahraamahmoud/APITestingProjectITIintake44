@@ -117,5 +117,3 @@ project-root/
 │           └── Constants.java
 
 
-##License
-This project is licensed under the MIT License.
