@@ -18,6 +18,23 @@
             <class name="testcases.post.invalidPostTests.GetPostWithInvalidIDTests"/>
             <class name="testcases.post.invalidPostTests.DeletePostWithInvalidID"/>
         </classes>
+
+    </test>
+    <test name="invalidcommenttests">
+        <classes>
+            <class name="testcases.comment.invalidCommentTests.CreateInvalidCommentsTests"/>
+            <class name="testcases.comment.invalidCommentTests.GetInvalidCommentTests"/>
+            <class name="testcases.comment.invalidCommentTests.putInvalidCommentTests"/>
+            <class name="testcases.comment.invalidCommentTests.DeleteInvalidCommentTests"/>
+        </classes>
+    </test>
+    <test name="invalidtodotests">
+        <classes>
+            <class name="testcases.todo.invalidTodoTests.CreateInvalidTodoTests"/>
+            <class name="testcases.todo.invalidTodoTests.GetInvalidTodoTests"/>
+            <class name="testcases.todo.invalidTodoTests.PutInvalidTodoTests"/>
+            <class name="testcases.todo.invalidTodoTests.DeleteInvalidTodoTests"/>
+        </classes>
     </test>
 
 </suite>

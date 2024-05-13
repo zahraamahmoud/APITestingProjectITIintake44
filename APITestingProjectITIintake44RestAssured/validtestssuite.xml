@@ -21,6 +21,22 @@
             <class name="testcases.post.validPostTests.UpdatePostWithValidFieldsUsingPATCHTests"/>
         </classes>
     </test>
+    <test name="validcommenttests">
+        <classes>
+            <class name="testcases.comment.validCommentTests.CreateValidCommentTests"/>
+            <class name="testcases.comment.validCommentTests.GetValidCommentTests"/>
+            <class name="testcases.comment.validCommentTests.PutValidCommentTests"/>
+            <class name="testcases.comment.validCommentTests.DeleteValidCommentTests"/>
+        </classes>
+    </test>
+    <test name="validtodotests">
+        <classes>
+            <class name="testcases.todo.validTodoTests.CreateValidTodoTests"/>
+            <class name="testcases.todo.validTodoTests.GetValidTodoTests"/>
+            <class name="testcases.todo.validTodoTests.PutValidTodoTests"/>
+            <class name="testcases.todo.validTodoTests.DeleteValidTodoTests"/>
+        </classes>
+    </test>
     </suite>
 
 
